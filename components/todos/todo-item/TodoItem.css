@@ -5,9 +5,24 @@
     border-radius: 1rem;
     box-shadow: 3px 0px 10px #605a5a;
     transition: .2s ease-in-out;
+    position: relative;
 }
 
 .todo-item:hover {
     box-shadow: 5px 5px 15px #605a5a;
     transform: scale(1.05);
+}
+
+.remove-button {
+    position: absolute;
+    top: 8%;
+    right: 2%;
+    border-radius: 50%;
+    font-size: unset;
+    aspect-ratio: 1;
+    display: flex;
+    justify-content: center;
+    background: #7a0cb6;
+    height: 1.5rem;
+    align-items: center;
 }

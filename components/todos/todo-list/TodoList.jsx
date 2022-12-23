@@ -26,6 +26,12 @@ export default function TodoList() {
         setNewTodo(e.target.value)
     }
 
+    const removeTodo = (index) => {
+        const currentTodos = [...todos]
+        const filteredTodos = currentTodos.filter((todo, idx) => idx !== index)
+        setTodos(filteredTodos)
+    }
+
     return (
         <div className='form-container'>
             <form onSubmit={handleSubmit} className='todo-form w-100'>
@@ -36,7 +42,7 @@ export default function TodoList() {
             {
                 todos.length
                 ?
-                todos.map(item => <TodoItem todo={item} />)
+                todos.map((item, index) => <TodoItem todo={item} remove={removeTodo} index={index} />)
                 :
                 <h3>Looks like you have a lot of free time. 😂 </h3>
             }
