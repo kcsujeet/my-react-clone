@@ -1,0 +1,29 @@
+.form-container {
+    height: 3rem;
+    width: 30rem;
+}
+
+.todo-form {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.todo-input {
+    padding: .5rem;
+    margin-right: .5rem;
+    border-radius: .5rem;
+    background-color: white;
+    border: none;
+    color: black;
+}
+
+.submit-button {
+    height: 100%;
+    background: plum;
+    transition: .2s ease-in;
+}
+
+.submit-button:hover {
+    transform: scale(1.05);
+}
