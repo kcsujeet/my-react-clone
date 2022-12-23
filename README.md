@@ -1,6 +1,6 @@
 # My React Clone
 
-A simple react clone I made to better understand React basics. I was inspired by Swyx's [talk](https://www.youtube.com/watch?v=KJP1E-Y-xyo&list=PLywJvIWKC67vwUDE5L05g8wiRGgneFX-n).
+A simple react clone I made to better understand React basics. I was inspired by Swyx's [talk](https://www.youtube.com/watch?v=KJP1E-Y-xyo&list=PLywJvIWKC67vwUDE5L05g8wiRGgneFX-n) at JS Conf 2019.
 
 In this project, I implemented three react hooks.
 
